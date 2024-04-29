@@ -1,49 +1,71 @@
 <?php get_header(); ?>
 
-<div class="container">
+<section class="hero-section relative block bg-[#1B1B1B]">
 
-    <h1><?php the_title(); ?></h1>
-    <?php get_template_part('includes/section', 'content'); ?>
 
-    <section class="hero-section overflow-hidden">
-        <div class="container max-w-full">
-            <div class=" hero min-h-screen bg-base-200">
-                <div class="hero-content flex-col lg:flex-row-reverse">
-                    <div class="text-center lg:text-left">
-                        <h1 class="text-5xl font-bold">Login now!</h1>
-                        <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
-                            exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+    <div class="hero py-12  max-w-[1440px] justify-center align-middle mx-auto ">
+        <div class="hero-content flex flex-col justify-between m-0 p-0 lg:flex-row-reverse">
+            <div class="access-bg absolute z-[-1]"><img
+                    src="<?php echo get_template_directory_uri(); ?>/media/images/access-logo.png" alt="">
+            </div>
+
+            <div class="card shrink-0 rounded-lg bg-[#FFFFFF]">
+                <div class="statement">
+                    <p>Get In Touch With Us For A</p>
+                    <h1>Free Consultation</h1>
+                </div>
+
+                <form class="card-body rounded-lg">
+                    <div class="grid-cols-2 grid gap-4">
+                        <div class="form-control border-gray-300 border-b">
+                            <input type="text "
+                                class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                name="first-name" placeholder="First Name" id="">
+                        </div>
+                        <div class="form-control border-gray-300 border-b">
+                            <input type=" text"
+                                class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                name="last-name" placeholder="Last Name" id="">
+                        </div>
                     </div>
-                    <div class="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                        <form class="card-body">
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Email</span>
-                                </label>
-                                <input type="email" placeholder="email" class="input input-bordered" required />
-                            </div>
-                            <div class="form-control">
-                                <label class="label">
-                                    <span class="label-text">Password</span>
-                                </label>
-                                <input type="password" placeholder="password" class="input input-bordered" required />
-                                <label class="label">
-                                    <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                                </label>
-                            </div>
-                            <div class="form-control mt-6">
-                                <button class="btn btn-primary">Login</button>
-                            </div>
-                        </form>
+                    <div class="form-control border-gray-300 border-b">
+                        <input type="email" placeholder="Email Address"
+                            class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                            required />
                     </div>
+                    <div class="form-control border-gray-300 border-b">
+                        <input type="password" placeholder="Contact Number"
+                            class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                            required />
+                    </div>
+                    <div class="form-control border-gray-300 border-b">
+                        <input type="password" placeholder="Message"
+                            class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                            required />
+                    </div>
+                    <div class="form-control mt-6">
+                        <button class="btn btn-primary">INQUIRE NOW</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="text-center lg:text-left flex flex-col w-1/2">
+                <h1 class="text-5xl title text-white">The website BUILDER real estate agents have
+                    been WAITING
+                    for.</h1>
+                <img src="<?php echo get_template_directory_uri(); ?>/media/images/banner.png" class="banner" alt="">
+                <div class="text-center justify-center flex flex-row">
+                    <p class="text-white">
+                        <button class="text-[#0D99FF] font-bold hover:underline">
+                            TRY ACCESS FOR FREE
+                        </button>
+                        7-day free trial. No credit card required.
+                    </p>
                 </div>
             </div>
         </div>
 
 
-    </section>
-
-
-</div>
+</section>
 
 <?php get_footer(); ?>

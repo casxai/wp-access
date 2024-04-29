@@ -3,16 +3,22 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @font-face {
-    font-family: 'graphie';
+    font-family: 'Graphie';
     src: url('fonts/GraphieBook.otf') format('opentype'),
+    url('fonts/GraphieRegular.otf') format('opentype'),
+    url('fonts/GraphieSemiBold.otf') format('opentype'),
+    url('fonts/GraphieBold.otf') format('opentype'),
+    url('fonts/GraphieExtraBold.otf') format('opentype');
+
+    
   }
   
+.container {
 
-/* ------------- header ------------- */
-
-.header {
-    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
+/* ------------- header ------------- */
 
 .logo span {
     font-family: 'graphie';
@@ -30,9 +36,91 @@
     font-family: 'open sans';
 } 
 
+.form-control input {
+    font-size: 1.125em;
+}
+
+.card {
+    box-shadow: 0px 0px 0px 20px rgba(232, 232, 232, 0.2); 
+    border-radius: 8px; 
+}
+
+.card {
+
+    overflow: hidden;
+    max-width: 460px;
+}
+
+.statement {
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+
+}
+.statement h1, .statement p{
+    text-align: center;
+    font: 'Graphie';
+}
+.statement h1 {
+    font-size: 1.625em;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.statement p {
+    font-size: 1em;
+    color: #9e9e9e;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+}
+.card-body {
+ 
+    padding-top:0;   
+}
+.form-control {
+    /* padding-top: 1em; */
+}
+
+
+
+
+
 /* ------------- hero ------------- */
 
+.hero-section {
+    background: linear-gradient(195deg, #1B1B1B 18.36%, #373737 100.46%);
+}
+.title {
+    font-family:  'Open Sans';
+    font-weight: 700;
+    font-size: 53px;
+    line-height: 67px;
+    letter-spacing: -2.2%;
+    text-align: center;
+}
+.banner {
+    height: auto;
+    max-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+}
+/* .access-bg {
+    top: 50px;
+    width: 1180px;
+    height: 810px;
+} */
 
+.access-bg {
+    
+    top: 50px;
+    right: -200px;
+    width: 1180px;
+    height: 810px;
+}
+
+p {
+    font-family: "Open Sans";
+}
 /* ------------- media ------------- */
 
 @media only screen and (max-width: 1199px) {

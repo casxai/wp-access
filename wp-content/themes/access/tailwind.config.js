@@ -4,15 +4,16 @@ content: ["./*.{php,html,js}","./templates/*.{php,html,js}","./includes/*.{php,h
   theme: {
     extend: {
       fontFamily: {
-        'outfit': ['"Outfit"', 'sans-serif'],
-        'inter': ['"Inter"', 'sans-serif'],
+        'sans': ['"Open Sans"', 'sans-serif'],
+        'graphie': ['"Graphie"', 'sans-serif'],
       },
       colors: {
         'primary': '#0454C4',
         'primary-light': '#F0F9FC',
         'primary-dark': '#010F36',
         'secondary': '#067D57',
-        'text-color': '#0B1324'
+        'text-color': '#0B1324',
+        
       },
       screens: {
         'mediumscreen': { 'max': '1366px' },
@@ -37,7 +38,8 @@ content: ["./*.{php,html,js}","./templates/*.{php,html,js}","./includes/*.{php,h
         'primary-light': '#F0F9FC',
         'primary-dark': '#010F36',
         'secondary': '#067D57',
-        'text-color': '#0B1324'
+        'text-color': '#0B1324',
+      
       },
       screens: {
         'mediumscreen': { 'max': '1366px' },

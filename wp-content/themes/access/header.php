@@ -9,8 +9,8 @@
     <?php wp_head(); ?>
 </head>
 <!--  -->
-<header class="bg-[#1B1B1B]">
-    <div class="header-container max-w-[1440px] h-[110px] py-2.5 px-12 flex align-middle justify-center mx-auto my-0">
+<header class="bg-[#1B1B1B] ">
+    <div class="header-container  max-w-[1440px] h-[110px] py-2.5 px-12 flex align-middle justify-center mx-auto my-0">
         <div class="navbar m-0 p-0 ">
             <div class="navbar-start">
                 <div class="logo relative block shrink-0 text-center">
