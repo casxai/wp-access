@@ -4,6 +4,6 @@
     "dictionaryDefinitions": [],
     "dictionaries": [],
     "words": [],
-    "ignoreWords": ["tailwindcss","mediumscreen","smallscreen","daisyui"],
+    "ignoreWords": ["Graphie","tailwindcss","mediumscreen","smallscreen","daisyui"],
     "import": []
 }
