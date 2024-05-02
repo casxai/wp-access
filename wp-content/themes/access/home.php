@@ -122,36 +122,61 @@
     </section>
 
     <!-- Slider Section -->
-    <section class="slider-section relative py-20 block bg-[#1B1B1B]">
-        <div class="slider-wrapper">
-            <div class="slider-title text-center  mx-auto max-w-[1024px]">
+    <section class="slider-section overflow-hidden relative py-20 block bg-[#1B1B1B]">
+        <div class="slider-wrapper block">
+            <div class="slider-title text-center mx-auto max-w-[1024px]">
                 <h1 class="text-white">Look What ACCESS Can Do</h1>
                 <p class="text-[#B3B3B3] mt-5">Create theme-based websites that look bespoke.</p>
             </div>
-            <div class="awards absolute block top-14 right-[12%]">
+            <div class="awards absolute block top-14 right-64">
                 <img src="<?php echo get_template_directory_uri(); ?>/media/images/awards.png" alt="">
             </div>
-            <div class="slider-contents relative flex mt-16 gap-4 justify-center align-middle">
-                <div class="slider relative z-2 block w-full">
+            <div class="slider-contents relative mt-16">
+                <div class="slider relative block w-full">
                     <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-1.jpg"
-                            class="" width="600" height="451" alt=""></div>
-                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-2.jpg"
-                            class="" width="600" height="451" alt=""></div>
-                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-3.jpg"
-                            class="" width="600" height="451" alt=""></div>
-                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-4.jpg"
-                            class="" width="600" height="451" alt=""></div>
-                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-5.jpg"
-                            class="" width="600" height="451" alt=""></div>
-                    <div class=""><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-6.jpg"
-                            class="item" width="600" height="451" alt=""></div>
+                            class="">
+
+                    </div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-2.jpg">
+
+                    </div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-3.jpg">
+
+                    </div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-4.jpg">
+
+                    </div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-5.jpg">
+
+                    </div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-6.jpg">
+
+                    </div>
                 </div>
-                <div class="laptop absolute"><img
-                        src="<?php echo get_template_directory_uri(); ?>/media/images/awards.png" alt=""></div>
-                <div class="buttons absolute">
-                    <button class="btn"></button>
-                    <button class="btn"></button>
+                <div class="ipad absolute"><img src="<?php echo get_template_directory_uri(); ?>/media/images/ipad.png"
+                        width="736" height="520" class="">
                 </div>
+                <div class="buttons z-1 absolute flex items-center justify-between m-auto">
+                    <button class="btn rounded-full prev-arrow w-12 h-12 border-none p-1 bg-[#676767]"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.9168 6.24462C10.2788 6.58529 10.296 7.15487 9.95536 7.51683L6.58296 11.1H19.5C19.997 11.1 20.4 11.5029 20.4 12C20.4 12.4971 19.997 12.9 19.5 12.9H6.58296L9.95536 16.4832C10.296 16.8451 10.2788 17.4147 9.9168 17.7554C9.55485 18.096 8.98526 18.0788 8.6446 17.7168L3.8446 12.6168C3.51844 12.2703 3.51844 11.7297 3.8446 11.3832L8.6446 6.28317C8.98526 5.92122 9.55485 5.90396 9.9168 6.24462Z"
+                                fill="white"></path>
+                        </svg></button>
+                    <button class="btn rounded-full next-arrow w-12 h-12 border-none p-1 bg-[#676767]"><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M14.0832 6.24462C14.4451 5.90396 15.0147 5.92122 15.3554 6.28317L20.1554 11.3832C20.4815 11.7297 20.4815 12.2703 20.1554 12.6168L15.3554 17.7168C15.0147 18.0788 14.4451 18.096 14.0832 17.7554C13.7212 17.4147 13.704 16.8451 14.0446 16.4832L17.417 12.9H4.50001C4.00295 12.9 3.60001 12.4971 3.60001 12C3.60001 11.5029 4.00295 11.1 4.50001 11.1H17.417L14.0446 7.51683C13.704 7.15487 13.7212 6.58529 14.0832 6.24462Z"
+                                fill="white"></path>
+                        </svg></button>
+                </div>
+
+
+            </div>
+            <div class="w-full flex items-center justify-center">
+                <button class="btn schedule border-none bg-[#1771DC] hover:bg-[#0F4B93] rounded-md font-bold mt-14">
+                    SIGN UP FOR ACCESS NOW
+                </button>
             </div>
 
 

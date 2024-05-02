@@ -3,12 +3,15 @@ jQuery(document).ready(function($){
     $('.slider').slick({
         infinite: true,
         centerMode: true,
-        centerPadding: 0,
+        centerPadding: 0,       
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         autoplaySpeed:5000,
-        speed: 500,
-        autoplay:true,
+        // speed: 500,
+        autoplay:false,
+        arrows: true,
+         prevArrow: $('.prev-arrow'),
+         nextArrow: $('.next-arrow'),
         responsive: [
           {
             breakpoint: 768,
@@ -30,6 +33,7 @@ jQuery(document).ready(function($){
           }
         ]
       });
+
     // $('.slider').slick({
       
     //     centerPadding: 0,

@@ -174,6 +174,7 @@ p {
     line-height: normal;
 }
 
+
 .slider-title p{
     font-family: 'Graphie', sans-serif;
     font-weight: 600;
@@ -182,22 +183,98 @@ p {
     line-height: normal;
 }
 
-.slick-slide {
-    transform: scale(0.8);
-    transition: all 0.4s ease-in-out;
-    padding: 40px 0;
-    
+.slider-contents {
+    position: relative;
+    display: flex;
+    z-index: 1;
 }
-.slick-slide img {
-    max-width: 100%;
+
+.slider:before, .slider:after {
+    content: '';
+    position: absolute; 
+    top: 0;
+    width: 50%;
+    z-index: 5;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(27,27,27,0) 0%, #1B1B1B 100%);
+}
+
+.slider:before {
+    left: 0;
+    transform: rotateY(180deg)
+}
+
+.slider:after {
+    right: 0
+}
+
+.slick-slide {
+    transform: scale(1);
     transition: all 0.4s ease-in-out;
+    /* opacity: 0.5;  */
+    position: relative;
+    margin-top: 3.1rem;
+    margin-bottom: 6.5rem; 
+}
+
+.slick-slide img {
+    transition: all 0.4s ease-in-out;
+    width: 500px;
 }
 
 .slick-center {
+    opacity: 1;
     transform: scale(1.1);
+    width: 942px;
 }
 
+.slick-center img {
+    height: auto;
+}
 
+.item img {
+    display: block;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top center;
+    object-position: top center;
+    margin: auto; 
+    border-radius: 9px;
+}
+
+/* .item h1 {
+    opacity: 0;
+}
+
+.slick-center h1 {
+    opacity: 1;
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+} */
+
+.ipad {
+    width: 736px;   
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.ipad img {
+    display: block;
+    width: 100%;
+    height: auto;
+} 
+
+.buttons {
+    top: 11.5vw;
+    left: 0;
+    right: 0;
+    max-width: 40.2vw;
+    z-index: 10;
+}
 
 /* ------------- media ------------- */
 
@@ -244,16 +321,7 @@ p {
         flex-shrink: 0;
     }
 
-    /* .awards {
-        position: static;
-        padding: 0;
-        margin-top: 15px;
-    }
 
-    .awards img {
-        max-width: 210px;
-        margin-inline: auto;
-    } */
     
 }
 
@@ -274,3 +342,6 @@ p {
         display:none
     }
 }
+
+
+
