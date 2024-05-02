@@ -70,7 +70,7 @@
     </section>
 
     <!-- Demo Section -->
-    <section class="demo-section py-20 block">
+    <section class="demo-section py-20 relative block">
         <div class="wrapper relative block px-20">
             <div class="demo-title text-center mx-auto max-w-[1024px]">
                 <h1 class="text-black">Easy. Fast. Beautiful.</h1>
@@ -122,13 +122,51 @@
     </section>
 
     <!-- Slider Section -->
-    <section class="slider-section"></section>
+    <section class="slider-section relative py-20 block bg-[#1B1B1B]">
+        <div class="slider-wrapper">
+            <div class="slider-title text-center  mx-auto max-w-[1024px]">
+                <h1 class="text-white">Look What ACCESS Can Do</h1>
+                <p class="text-[#B3B3B3] mt-5">Create theme-based websites that look bespoke.</p>
+            </div>
+            <div class="awards absolute block top-14 right-[12%]">
+                <img src="<?php echo get_template_directory_uri(); ?>/media/images/awards.png" alt="">
+            </div>
+            <div class="slider-contents relative flex mt-16 gap-4 justify-center align-middle">
+                <div class="slider relative z-2 block w-full">
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-1.jpg"
+                            class="" width="600" height="451" alt=""></div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-2.jpg"
+                            class="" width="600" height="451" alt=""></div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-3.jpg"
+                            class="" width="600" height="451" alt=""></div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-4.jpg"
+                            class="" width="600" height="451" alt=""></div>
+                    <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-5.jpg"
+                            class="" width="600" height="451" alt=""></div>
+                    <div class=""><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-6.jpg"
+                            class="item" width="600" height="451" alt=""></div>
+                </div>
+                <div class="laptop absolute"><img
+                        src="<?php echo get_template_directory_uri(); ?>/media/images/awards.png" alt=""></div>
+                <div class="buttons absolute">
+                    <button class="btn"></button>
+                    <button class="btn"></button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
 
     <!-- Pricing Section -->
-    <section class="pricing"></section>
+    <section class="pricing">
+
+    </section>
 
     <!-- CTA Section -->
-    <section class="cta"></section>
+    <section class="cta">
+
+    </section>
 
 </main>
 

@@ -1527,8 +1527,20 @@ html {
   line-height: 1.5rem;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
+}
+
+.right-\[12\%\] {
+  right: 12%;
+}
+
+.top-14 {
+  top: 3.5rem;
 }
 
 .m-0 {
@@ -1563,6 +1575,10 @@ html {
 
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mt-5 {
@@ -1843,6 +1859,11 @@ html {
   color: rgb(141 141 141 / var(--tw-text-opacity));
 }
 
+.text-\[\#B3B3B3\] {
+  --tw-text-opacity: 1;
+  color: rgb(179 179 179 / var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -2026,6 +2047,36 @@ p {
 
 /* ------------- slider ------------- */
 
+.slider-title h1{
+  font-family: 'Graphie', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: normal;
+}
+
+.slider-title p{
+  font-family: 'Graphie', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.059rem;
+  font-size: 28px;
+  line-height: normal;
+}
+
+.slick-slide {
+  transform: scale(0.8);
+  transition: all 0.4s ease-in-out;
+  padding: 40px 0;
+}
+
+.slick-slide img {
+  max-width: 100%;
+  transition: all 0.4s ease-in-out;
+}
+
+.slick-center {
+  transform: scale(1.1);
+}
+
 /* ------------- media ------------- */
 
 @media only screen and (max-width: 1199px) {
@@ -2071,6 +2122,17 @@ p {
     font-size: 12px;
     flex-shrink: 0;
   }
+
+  /* .awards {
+        position: static;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .awards img {
+        max-width: 210px;
+        margin-inline: auto;
+    } */
 }
 
 @media only screen and (max-width: 480px) {

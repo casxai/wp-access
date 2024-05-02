@@ -167,10 +167,35 @@ p {
 
 /* ------------- slider ------------- */
 
+.slider-title h1{
+    font-family: 'Graphie', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: normal;
+}
 
+.slider-title p{
+    font-family: 'Graphie', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.059rem;
+    font-size: 28px;
+    line-height: normal;
+}
 
+.slick-slide {
+    transform: scale(0.8);
+    transition: all 0.4s ease-in-out;
+    padding: 40px 0;
+    
+}
+.slick-slide img {
+    max-width: 100%;
+    transition: all 0.4s ease-in-out;
+}
 
-
+.slick-center {
+    transform: scale(1.1);
+}
 
 
 
@@ -185,7 +210,6 @@ p {
 @media only screen and (max-width: 991px) {
     .header-wrapper {
         padding: 24px;
-        
     }
     
 }
@@ -219,6 +243,17 @@ p {
         font-size: 12px;
         flex-shrink: 0;
     }
+
+    /* .awards {
+        position: static;
+        padding: 0;
+        margin-top: 15px;
+    }
+
+    .awards img {
+        max-width: 210px;
+        margin-inline: auto;
+    } */
     
 }
 
