@@ -22,6 +22,7 @@
     margin: 0;
     padding: 0;
     font: inherit;
+    vertical-align: baseline;
 }
 
 .main {
@@ -276,6 +277,215 @@ p {
     z-index: 10;
 }
 
+/* ------------- pricing ------------- */
+
+
+.bg {
+    background: transparent url('../media/images/pricing-bg.png') no-repeat;
+    background-size: 100% 742px;
+    background-position: top;
+}
+
+.pricing-title h1{
+    font-family: 'Graphie', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: normal;
+}
+
+
+.pricing-title span{
+    font-family: 'Graphie', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.059rem;
+    font-size: 32px;
+    line-height: normal;
+}
+
+.pricing-title p{
+    font-family: 'Graphie', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.059rem;
+    font-size: 34px;
+    line-height: normal;
+}
+
+.pricing-type p {
+    font-family: 'Graphie';
+    font-size: 14px;
+    line-height: 1.71429;
+    letter-spacing: 1.4px;
+}
+.silver {
+   background: linear-gradient(90deg, #F5F5F5 0%, #C9C9C9 51.5%, #9C9C9C 100%);
+   border: 1px solid;
+   border: linear-gradient(95.11deg, #C1C1C1 -11.57%, #B3B3B3 125.46%);
+}
+
+.price-silver::before{
+    content: '$99.99';
+    color: red;
+    text-decoration: line-through;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.price-silver::after{
+    content: '/mo';
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.popular-price{
+    margin: -32px -26px 0;
+    height: 50px;
+    text-align: center;
+    font-family: 'Graphie';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.price-platinum::before{
+    content: '$149.99';
+    color: red;
+    text-decoration: line-through;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.price-platinum::after{
+    content: '/mo';
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 12px;
+}
+
+.platinum {
+    background: linear-gradient(86.05deg, #8F96B0 2.68%, #EFF3F8 54.98%, #C3C7E0 102.3%);
+    border: 1px solid;
+    border: linear-gradient(95.83deg, #8F96B0 -39.41%, #EFF3F8 19.5%, #9DA4BB 72.79%);
+}
+
+.price-inclusions span {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+}
+
+/* ------------- cta ------------- */
+
+.cta-title{
+    font-family: 'Graphie', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: normal;
+    color: white;
+}
+
+/* ------------- footer ------------- */
+
+.foot-title h1 {
+    font-family: 'Graphie', Arial;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.foot-title p {
+    font-family: 'Graphie', Arial;
+    font-size: 20px;
+    letter-spacing: -0.10px;
+    margin-top: 8px;
+}
+
+.credits {
+    font-family: 'Open Sans', Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.011em;
+    text-align: left;
+    color: white;
+}
+
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: #1B1B1B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #00acee;
+    transition-duration: .3s;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  
 /* ------------- media ------------- */
 
 @media only screen and (max-width: 1199px) {

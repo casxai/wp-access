@@ -135,7 +135,6 @@
                 <div class="slider relative block w-full">
                     <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-1.jpg"
                             class="">
-
                     </div>
                     <div class="item"><img src="<?php echo get_template_directory_uri(); ?>/media/images/slide-2.jpg">
 
@@ -178,18 +177,356 @@
                     SIGN UP FOR ACCESS NOW
                 </button>
             </div>
-
-
         </div>
     </section>
 
     <!-- Pricing Section -->
-    <section class="pricing">
+    <section class="pricing-section relative block py-20 bg-[#E8E8E8] overflow-hidden">
+        <div class="bg absolute top-0 left-0 bottom-0 right-0"></div>
+        <div class="wrapper relative block px-20">
+            <div class="pricing-title text-center mx-auto max-w-[1024px]">
+                <span>ACCESS WEBSITE BUILDER</span>
+                <h1 class="text-white mt-4">Beautiful. Affordable. Quick to Build.</h1>
+                <p class="text-white mt-4">Free for 7 days.</p>
+            </div>
+            <div class="pricing-list grid grid-cols-3 gap-9 relative mt-14">
+                <!-- free -->
+                <div
+                    class="pricing-1 z-1 relative max-w-sm lg:max-w-none mx-auto px-6 py-8 mt-12 bg-gray-100 rounded-2xl">
+                    <div class="text-center flex flex-col items-center justify-center">
+                        <div
+                            class="pricing-type flex items-center justify-center rounded-md w-[122px] h-[32px] bg-[#dfdfdf] mb-3">
+                            <p class="font-semibold text-black">FREE</p>
+                        </div>
+                        <div class="pricing-title flex items-center justify-center mt-5 text-center">
+                            <h1 class="block text-5xl font-bold text-black mb-3">$0</h1>
+                        </div>
+                        <div class="pricing-image relative block mx-[-24px]">
+                            <img src="<?php echo get_template_directory_uri(); ?>/media/images/pricing-1.png"
+                                class="block w-full h-auto">
+                        </div>
 
+                        <!-- <span class="block text-gray-600 font-medium mb-6">per user, per month</span> -->
+                    </div>
+                    <div class="price-inclusions px-10">
+                        <ul>
+                            <li class="flex mb-4  items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">Create unlimited websites</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">7 day uptime for websites</span>
+
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.5 11.9999L1 23L12 14.5L23 23L14.5 11.9999L22.9998 1L12 9.5L1.00029 1L9.5 11.9999Z"
+                                        fill="#8D8D8D" />
+                                </svg>
+
+                                <span class="ml-2 text-[#8D8D8D]">Custom domain name</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.5 11.9999L1 23L12 14.5L23 23L14.5 11.9999L22.9998 1L12 9.5L1.00029 1L9.5 11.9999Z"
+                                        fill="#8D8D8D" />
+                                </svg>
+
+                                <span class="ml-2 text-[#8D8D8D]">2 months free subscription</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.5 11.9999L1 23L12 14.5L23 23L14.5 11.9999L22.9998 1L12 9.5L1.00029 1L9.5 11.9999Z"
+                                        fill="#8D8D8D" />
+                                </svg>
+
+                                <span class="ml-2 text-[#8D8D8D]">Single IDX feed per published website</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href="#"
+                            class="relative group inline-block w-full py-4 px-6 text-center text-white hover:text-gray-50 bg-[#1771DC] font-semibold rounded-md overflow-hidden transition duration-200">
+                            <div
+                                class="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500">
+                            </div>
+                            <span class="relative">Start 7-days Trial</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- silver -->
+                <div
+                    class="pricing-1 overflow-hidden z-1 relative max-w-sm lg:max-w-none mx-auto px-6 py-8 bg-gray-100 rounded-2xl ">
+                    <div class="relative popular-price flex items-center justify-center bg-[#1771DC]">
+                        MOST POPULAR
+                    </div>
+                    <div class="text-center flex flex-col items-center justify-center">
+
+                        <div
+                            class="pricing-type silver relative flex items-center justify-center rounded-md w-[122px] h-[32px] mb-3">
+                            <p class="font-semibold text-black">SILVER</p>
+                        </div>
+                        <div class="pricing-title flex items-center justify-center mt-5 text-center">
+                            <h1 class="price-silver block text-5xl font-bold text-black mb-3">$79.99</h1>
+                        </div>
+                        <div class="pricing-image relative block mx-[-24px]">
+                            <img src="<?php echo get_template_directory_uri(); ?>/media/images/pricing-2.png"
+                                class="block w-full h-auto">
+                        </div>
+
+                        <!-- <span class="block text-gray-600 font-medium mb-6">per user, per month</span> -->
+                    </div>
+                    <div class="price-inclusions px-10">
+                        <ul>
+                            <li class="flex mb-4  items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">Create unlimited websites</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">7 day uptime for websites</span>
+
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">Custom domain name</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+                                <span class="ml-2 text-gray-800">2 months free subscription</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M9.5 11.9999L1 23L12 14.5L23 23L14.5 11.9999L22.9998 1L12 9.5L1.00029 1L9.5 11.9999Z"
+                                        fill="#8D8D8D" />
+                                </svg>
+
+                                <span class="ml-2 text-[#8D8D8D]">Single IDX feed per published website</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href="#"
+                            class="relative group inline-block w-full py-4 px-6 text-center text-white hover:text-gray-50 bg-[#1771DC] font-semibold rounded-md overflow-hidden transition duration-200">
+                            <div
+                                class="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500">
+                            </div>
+                            <span class="relative">Start 7-days Trial</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- platinum -->
+                <div
+                    class="pricing-1 z-1 relative max-w-sm lg:max-w-none mx-auto px-6 py-8 mt-12 bg-gray-100 rounded-2xl">
+                    <div class="text-center flex flex-col items-center justify-center">
+                        <div
+                            class="pricing-type flex items-center justify-center rounded-md w-[122px] h-[32px] platinum mb-3">
+                            <p class="font-semibold text-black">PLATINUM</p>
+                        </div>
+                        <div class="pricing-title flex items-center justify-center mt-5 text-center">
+                            <h1 class="block price-platinum text-5xl font-bold text-black mb-3">$129.99</h1>
+                        </div>
+                        <div class="pricing-image relative block mx-[-24px]">
+                            <img src="<?php echo get_template_directory_uri(); ?>/media/images/pricing-3.png"
+                                class="block w-full h-auto">
+                        </div>
+
+                        <!-- <span class="block text-gray-600 font-medium mb-6">per user, per month</span> -->
+                    </div>
+                    <div class="price-inclusions px-10">
+                        <ul>
+                            <li class="flex mb-4  items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">Create unlimited websites</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">7 day uptime for websites</span>
+
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">Custom domain name</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+
+                                <span class="ml-2 text-gray-800">2 months free subscription</span>
+                            </li>
+                            <li class="flex mb-4 items-center">
+                                <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g id="Icon">
+                                        <path id="Vector 5"
+                                            d="M8.28986 18.6667L0 15.5556L8.28986 24L26 0L8.28986 18.6667Z"
+                                            fill="#1B1B1B" />
+                                    </g>
+                                </svg>
+                                <span class="ml-2 text-gray-800">Single IDX feed per published website</span>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <a href="#"
+                            class="relative group inline-block w-full py-4 px-6 text-center text-white hover:text-gray-50 bg-[#1771DC] font-semibold rounded-md overflow-hidden transition duration-200">
+                            <div
+                                class="absolute top-0 right-full w-full h-full bg-gray-900 transform group-hover:translate-x-full group-hover:scale-102 transition duration-500">
+                            </div>
+                            <span class="relative">Start 7-days Trial</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="cta">
+    <section class="cta relative block bg-[#1B1B1B] ">
+        <div class="cta-wrapper relative flex justify-start mx-auto max-w-[1440px]">
+            <div class="cta-title absolute z-1 top-24 left-20 w-80">
+                Reinvent the way you sell real estate today!
+            </div>
+            <div class="cta-img mt-[-54px]">
+                <img src="<?php echo get_template_directory_uri(); ?>/media/images/cta.png" class="ml-40">
+            </div>
+            <div class="ml-[-50px]">
+                <div class="w-[400px] rounded-lg mt-24 bg-[#FFFFFF]">
+                    <div class="statement">
+                        <h1>Free Consultation</h1>
+                    </div>
+                    <form class="card-body">
+                        <div class="grid-cols-2 grid gap-4">
+                            <div class="form-control border-gray-300 border-b">
+                                <input type="text "
+                                    class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                    name="first-name" placeholder="First Name" id="">
+                            </div>
+                            <div class="form-control border-gray-300 border-b">
+                                <input type=" text"
+                                    class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                    name="last-name" placeholder="Last Name" id="">
+                            </div>
+                        </div>
+                        <div class="form-control border-gray-300 border-b pt-3">
+                            <input type="email" placeholder="Email Address"
+                                class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                required />
+                        </div>
+                        <div class="form-control border-gray-300 border-b pt-3">
+                            <input type="password" placeholder="Contact Number"
+                                class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                required />
+                        </div>
+                        <div class="form-control border-gray-300 border-b pt-3">
+                            <input type="password" placeholder="Message"
+                                class="appearance-none bg-transparent border-none w-full text-gray-800 mr-3 py-3 px-2 leading-tight focus:outline-none"
+                                required />
+                        </div>
+                        <div class="form-control mt-6 pt-3">
+                            <button class="btn bg-[#1771DC] text-white border-none rounded-md">SCHEDULE A DEMO</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+
+
+        </div>
 
     </section>
 
