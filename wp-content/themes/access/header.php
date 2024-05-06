@@ -15,7 +15,7 @@
             <div class="navbar-start">
                 <div class="logo relative block shrink-0 text-center">
                     <img src="<?php echo get_template_directory_uri(); ?>/media/images/header-logo.png"
-                        class="inline-block align-middle h-auto max-w-full" alt="logo" width="227" height="33">
+                        class="inline-block align-middle h-auto max-w-full" alt="logo">
                     <span class="block text-xs font-semibold text-white mt-1">REAL ESTATE WEBSITE PLATFORM</span>
                 </div>
             </div>

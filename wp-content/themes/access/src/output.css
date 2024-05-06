@@ -1587,20 +1587,12 @@ html {
   right: 0px;
 }
 
-.right-64 {
-  right: 16rem;
-}
-
 .right-full {
   right: 100%;
 }
 
 .top-0 {
   top: 0px;
-}
-
-.top-14 {
-  top: 3.5rem;
 }
 
 .top-24 {
@@ -1654,8 +1646,12 @@ html {
   margin-left: 10rem;
 }
 
-.ml-\[-50px\] {
-  margin-left: -50px;
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-20 {
+  margin-right: 5rem;
 }
 
 .mr-3 {
@@ -1774,8 +1770,8 @@ html {
   width: 400px;
 }
 
-.w-\[54\%\] {
-  width: 54%;
+.w-\[58\%\] {
+  width: 58%;
 }
 
 .w-\[652px\] {
@@ -1808,6 +1804,10 @@ html {
 
 .shrink-0 {
   flex-shrink: 0;
+}
+
+.grow-0 {
+  flex-grow: 0;
 }
 
 .transform {
@@ -2012,6 +2012,16 @@ html {
   padding-right: 1.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.px-9 {
+  padding-left: 2.25rem;
+  padding-right: 2.25rem;
+}
+
 .py-14 {
   padding-top: 3.5rem;
   padding-bottom: 3.5rem;
@@ -2047,12 +2057,24 @@ html {
   padding-bottom: 2rem;
 }
 
+.pr-12 {
+  padding-right: 3rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .pt-3 {
   padding-top: 0.75rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .align-middle {
@@ -2344,6 +2366,7 @@ p {
   position: relative;
   display: flex;
   z-index: 1;
+  /* height: calc(36.111vw + 38px + 16px);  */
 }
 
 .slider:before, .slider:after {
@@ -2370,19 +2393,19 @@ p {
   transition: all 0.4s ease-in-out;
   /* opacity: 0.5;  */
   position: relative;
-  margin-top: 3.1rem;
-  margin-bottom: 6.5rem;
+  margin-top: 2.5vw;
+  margin-bottom: 2vw;
 }
 
 .slick-slide img {
   transition: all 0.4s ease-in-out;
-  width: 500px;
+  width: 25.8vw;
 }
 
 .slick-center {
   opacity: 1;
   transform: scale(1.1);
-  width: 942px;
+  width: 50vw;
 }
 
 .slick-center img {
@@ -2399,18 +2422,8 @@ p {
   border-radius: 9px;
 }
 
-/* .item h1 {
-    opacity: 0;
-}
-
-.slick-center h1 {
-    opacity: 1;
-    margin-top: 5rem;
-    margin-bottom: 1.5rem;
-} */
-
 .ipad {
-  width: 736px;
+  width: 38vw;
   margin: auto;
   top: 0;
   right: 0;
@@ -2419,17 +2432,11 @@ p {
   z-index: -1;
 }
 
-.ipad img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 .buttons {
   top: 11.5vw;
   left: 0;
   right: 0;
-  max-width: 40.2vw;
+  max-width: 38vw;
   z-index: 10;
 }
 
@@ -2536,8 +2543,7 @@ p {
 }
 
 .price-inclusions span {
-  font-family: 'Open Sans';
-  font-weight: 700;
+  font-family: 'Open Sans', Arial;
   font-size: 15px;
 }
 
@@ -2546,7 +2552,7 @@ p {
 .cta-title{
   font-family: 'Graphie', sans-serif;
   font-weight: 700;
-  font-size: 56px;
+  font-size: 3.5em;
   line-height: normal;
   color: white;
 }
@@ -2649,15 +2655,152 @@ p {
 
 /* ------------- media ------------- */
 
+@media only screen and (max-width: 1510px) {
+  .buttons {
+    /* top: 10.5vw; */
+    max-width: 38.5vw;
+  }
+}
+
+@media only screen and (max-width: 1398px) {
+  .demo-left, .demo-right {
+    gap: 12px;
+  }
+
+  .demo-left div, .demo-right div {
+    padding: 30px 20px
+  }
+
+  .demo>*:first-child {
+    margin-right: -0.85%;
+  }
+
+  .demo>*:last-child {
+    margin-right: -0.35%;
+  }
+
+  .buttons {
+    /* top: 10.5vw; */
+    max-width: 39vw;
+  }
+}
+
+@media only screen and (max-width: 1287px) {
+  .wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 @media only screen and (max-width: 1199px) {
   .header-wrapper {
     padding: 24px;
+  }
+
+  .wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .demo-left, .demo-right {
+    gap: 12px;
+  }
+
+  .demo-left div, .demo-right div {
+    padding: 30px 20px
+  }
+
+  .demo>*:first-child {
+    margin-right: -0.85%;
+  }
+
+  .demo>*:last-child {
+    margin-right: -0.35%;
+  }
+
+  .schedule-btn button {
+    margin-top: 0;
+  }
+
+  .awards {
+    padding-top: 40px;
+    padding-right: 40px;
+  }
+
+  .awards img {
+    max-width: 170px;
+  }
+
+  .slider-contents {
+    margin-top: 50px;
+  }
+
+  .buttons {
+    /* top: 10.5vw; */
+    max-width: 39.5vw;
+  }
+
+  .pricing-list {
+    gap: 14px
+  }
+
+  .pricing-title {
+    margin-inline: -20px;
+  }
+
+  .pricing-title h1 {
+    font-size: 48px;
+  }
+
+  .cta-title {
+    left: 3%;
+    font-size: 48px;
+  }
+
+  .cta-img img {
+    margin-left: 95px;
+    width: 64vw
+  }
+
+  .consultation-form {
+    width: 360px;
+    margin-right: 28px;
+  }
+
+  .footer-section {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .footer-wrapper {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .header-wrapper {
     padding: 24px;
+  }
+
+  .card {
+    max-width: 306px;
+  }
+
+  .card-2 {
+    width: 60%;
+  }
+
+  .access-bg {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 }
 
@@ -2749,12 +2892,14 @@ p {
     max-width: none;
   }
 
-  .lg\:flex-row-reverse {
-    flex-direction: row-reverse;
+  .lg\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
-  .lg\:text-left {
-    text-align: left;
+  .lg\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
 
