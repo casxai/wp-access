@@ -5,9 +5,6 @@
 
 function enqueue_stylesheets()
 {
-    //tailwind
-    wp_enqueue_style('tailwind-css', get_template_directory_uri() . './src/output.css', array(), false, 'all');
-
     //css
     wp_register_style(
         'input',
@@ -17,6 +14,11 @@ function enqueue_stylesheets()
         'all'
     );
     wp_enqueue_style('input');
+
+    //tailwind
+    wp_enqueue_style('tailwind-css', get_template_directory_uri() . './src/output.css', array(), false, 'all');
+
+
 
     //slick
     wp_enqueue_style('slick-css', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css');

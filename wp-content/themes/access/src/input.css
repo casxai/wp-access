@@ -48,7 +48,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 999;
+    z-index: 1099;
 }
 .logo span {
     font-family: 'graphie';
@@ -70,6 +70,10 @@ header {
 .hero-section {
     background: linear-gradient(195deg, #1B1B1B 18.36%, #373737 100.46%);
     overflow: hidden;
+}
+
+.hero-content {
+    z-index: 999;
 }
 
 .hero-title {
@@ -204,7 +208,7 @@ p {
     position: relative;
     display: flex;
     z-index: 1;
-    /* height: calc(36.111vw + 38px + 16px);  */
+    /* height: calc(36.111vw + 38px + 16px);    */
     
 }
 
@@ -212,9 +216,10 @@ p {
     content: '';
     position: absolute; 
     width: 50%;
+    top: 0;
     z-index: 5;
     height: 100%;
-    background: linear-gradient(90deg, rgba(27,27,27,0) 0%, #1B1B1B 110%);
+    background: linear-gradient(90deg, rgba(27,27,27,0) 0%, #1B1B1B 100%);
 }
 
 .slider:before {
@@ -226,6 +231,11 @@ p {
     right: 0
 }
 
+.slider .slick-list {
+    padding-right:30vw !important;
+    padding-left:30vw !important;
+    overflow: visible;
+}
 
 .slick-slide {
     transform: scale(1);
@@ -254,9 +264,7 @@ p {
 .item img {
 
     display: block;
-    -o-object-fit: cover;
     object-fit: cover;
-    -o-object-position: top center;
     object-position: top center;
     margin: auto; 
     border-radius: 9px;
@@ -277,7 +285,7 @@ p {
     top: 10vw;
     left: 0;
     right: 0;
-    max-width: 40vw;
+    max-width: 45vw;
     z-index: 10;
 }
 
@@ -289,6 +297,9 @@ p {
     background-size: 100% 742px;
     background-position: top;
 }
+
+
+
 
 .pricing-title h1{
     font-family: 'Graphie', sans-serif;
@@ -581,8 +592,8 @@ p {
     }
 
     .buttons {
-        /* top: 10.5vw; */
-        max-width: 39.5vw;
+        top: 9vw;
+        max-width: 50vw;
     }
 
     .pricing-list {
@@ -591,6 +602,7 @@ p {
 
     .pricing-title {
         margin-inline: -20px;
+        max-width: none;
     }
     .pricing-title h1 {
         font-size: 48px;
@@ -662,6 +674,12 @@ p {
         min-height: 143px;
     }
 
+    .awards {
+        
+        padding-top: 20px;
+        padding-right: 20px;
+       
+    }
 
     .slider-section {
         padding-top: 40px;
@@ -670,8 +688,8 @@ p {
     }
 
     .buttons {
-        top: 10.5vw;
-        max-width: 35.5vw;
+        top: 8vw;
+        max-width: 52vw;
     }
 
     .pricing-title h1 {
@@ -699,7 +717,7 @@ p {
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
 
     .access-bg {
        
@@ -713,6 +731,12 @@ p {
         padding: 16px 24px;
     }
 
+    .contact svg {
+        padding: 0;
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
     .logo {
         width: 100%;
         max-width: 187px;
@@ -805,14 +829,18 @@ p {
         flex-direction: column;
         width: 100%;
         gap: 30px;
+        justify-content: center;
+        align-items: center;
         
     }
     
     .demo-left, .demo-right {
         gap: 30px;
+        min-width: 100%;
     }
 
     .demo-left div, .demo-right div {
+        
         padding: 30px;
         min-height: 0;
     }
@@ -847,19 +875,19 @@ p {
         overflow: visible;
     }
 
-    .slick-slide {
+     .slick-slide {
         margin-top: 4.5vw;
     }
     
     .slick-slide img {
         width: 47.5vw;
-    }
+        /* max-width: 47.5vw; */
+    } 
     
     .slider:before, .slider:after {
         width: 25vw;
         height: 100%;
     }
-    
    
     .ipad {
         width: 70vw; 
@@ -986,9 +1014,7 @@ p {
         width: 661px;
         height: 452px;
         
-    }
-
-    
+    }    
 }
 
 @media only screen and (max-width: 416px) {

@@ -4,7 +4,7 @@ jQuery(document).ready(function($){
         infinite: true,
         centerMode: true,
         centerPadding: 0,       
-        slidesToShow: 3,
+        slidesToShow: 1,
         slidesToScroll: 3,
         autoplaySpeed:5000,
         // speed: 500,
@@ -13,17 +13,9 @@ jQuery(document).ready(function($){
          prevArrow: $('.prev-arrow'),
          nextArrow: $('.next-arrow'),
         responsive: [
+        
           {
             breakpoint: 768,
-            settings: {
-              arrows: true,
-              centerMode: true,
-           
-              slidesToShow: 3
-            }
-          },
-          {
-            breakpoint: 480,
             settings: {
               arrows: false,
               centerMode: true,

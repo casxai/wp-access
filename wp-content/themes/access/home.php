@@ -7,7 +7,7 @@
             <div class="access-bg">
                 <img src="<?php echo get_template_directory_uri(); ?>/media/images/access-logo.png" alt="">
             </div>
-            <div class="hero-content justify-between m-0 p-0">
+            <div class="hero-content relative justify-between m-0 p-0">
                 <div class="card-2 text-center flex flex-col w-1/2">
                     <h1 class="text-5xl hero-title text-white ">The website BUILDER real estate agents have
                         been WAITING
@@ -22,7 +22,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="card shrink-0 rounded-lg drop-shadow-xl bg-[#FFFFFF]">
+                <div class="card shrink-0 relative rounded-lg drop-shadow-xl bg-[#FFFFFF]">
                     <div class="statement">
                         <p>Get In Touch With Us For A</p>
                         <h1>Free Consultation</h1>
@@ -57,7 +57,7 @@
                         </div>
                         <div class="form-control mt-6 pt-3">
                             <button
-                                class=" schedule btn bg-[#1771DC] text-white border-none rounded-md font-bold">INQUIRE
+                                class="btn schedule bg-[#1771DC] text-white border-none rounded-md font-bold">INQUIRE
                                 NOW</button>
                         </div>
                     </form>
@@ -150,7 +150,7 @@
 
             </div>
             <div class="schedule-btn mt-10 w-full flex items-center justify-center">
-                <button class="btn schedule border-none bg-[#1771DC] hover:bg-[#0F4B93] rounded-md font-bold mt-14">
+                <button class="btn schedule border-none bg-[#1771DC] rounded-md font-bold mt-14">
                     SCHEDULE A DEMO
                 </button>
             </div>
@@ -210,8 +210,8 @@
                 </div>
             </div>
         </div>
-        <div class="slider-button-sched w-full mt-24 flex items-center justify-center">
-            <button class="btn schedule border-none bg-[#1771DC] hover:bg-[#0F4B93] rounded-md font-bold">
+        <div class="slider-button-sched relative z-50 w-full mt-24 flex items-center justify-center">
+            <button class="btn schedule border-none bg-[#1771DC] rounded-md font-bold">
                 SIGN UP FOR ACCESS NOW
             </button>
         </div>
@@ -293,7 +293,7 @@
                                 <span class=" ml-2 text-[#8D8D8D]">2 months free subscription</span>
                             </li>
                             <li class="flex mb-4 items-center">
-                                <svg width="29" height="29" viewBox="0 0 24 24" fill="none"
+                                <svg width="27" height="27" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M9.5 11.9999L1 23L12 14.5L23 23L14.5 11.9999L22.9998 1L12 9.5L1.00029 1L9.5 11.9999Z"
@@ -390,7 +390,7 @@
                                 <span class="ml-2 text-gray-800 font-bold">2 months free subscription</span>
                             </li>
                             <li class="flex mb-4 items-center">
-                                <svg width="33" height="33" viewBox="0 0 24 24" fill="none"
+                                <svg width="28" height="28" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
                                         d="M9.5 11.9999L1 23L12 14.5L23 23L14.5 11.9999L22.9998 1L12 9.5L1.00029 1L9.5 11.9999Z"
@@ -483,7 +483,7 @@
                                 <span class="ml-2 text-gray-800 font-bold">2 months free subscription</span>
                             </li>
                             <li class="flex mb-4 items-center">
-                                <svg width="35" height="33" viewBox="0 0 26 24" fill="none"
+                                <svg width="30" height="28" viewBox="0 0 26 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="Icon">
                                         <path id="Vector 5"
