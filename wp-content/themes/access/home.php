@@ -210,7 +210,7 @@
                 </div>
             </div>
         </div>
-        <div class="slider-button-sched relative z-50 w-full mt-24 flex items-center justify-center">
+        <div class="slider-button-sched relative z-50 w-full  mt-36 flex items-center justify-center">
             <button class="btn schedule border-none bg-[#1771DC] rounded-md font-bold">
                 SIGN UP FOR ACCESS NOW
             </button>
@@ -229,14 +229,37 @@
             <div class="pricing-list grid grid-cols-3 gap-9 relative mt-14">
                 <!-- free -->
                 <div
-                    class="pricing-1 z-1 relative max-w-sm lg:max-w-none mx-auto px-6 py-8 mt-12 bg-gray-100 rounded-2xl">
-                    <div class="text-center flex flex-col items-center justify-center">
+                    class="pricing-1 z-1 overflow-hidden relative max-w-sm lg:max-w-none mx-auto px-6 py-8 mt-12 bg-gray-100 rounded-2xl">
+                    <div class="pricing-accent pa-web z-2 absolute top-0 left-0">
+                        <img src="<?php echo get_template_directory_uri(); ?>/media/images/left.svg"
+                            class="rounded-tr-2xl rounded-tl-2xl">
+                    </div>
+                    <div class="pricing-accent pa-center-1 z-2 absolute top-0 left-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="406" height="335" viewBox="0 0 406 444"
+                            fill="none" preserveAspectRatio="none"
+                            class="accent-desktop rounded-tl-2xl rounded-tr-2xl ">
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="#2F2F2F"></path>
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="url(#paint0_linear_3138_2733)"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_3138_2733" x1="100" y1="-345.715" x2="-38.8886"
+                                    y2="524.771" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1B1B1B"></stop>
+                                    <stop offset="1" stop-color="#373737"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="text-center flex relative z-3 flex-col items-center justify-center">
                         <div
-                            class="pricing-type flex items-center justify-center rounded-md w-[122px] h-[32px] bg-[#dfdfdf] mb-3">
+                            class="pricing-type flex items-center justify-center rounded-md w-[122px] h-[32px] bg-[#dfdfdf]">
                             <p class="font-semibold text-black">FREE</p>
                         </div>
                         <div class="pricing-title flex items-center justify-center mt-5 text-center">
-                            <h1 class="block text-5xl font-bold text-black mb-3">$0</h1>
+                            <h1 class="block text-5xl font-bold text-white mb-6">$0</h1>
                         </div>
                         <div class="pricing-image relative block mx-[-24px]">
                             <img src="<?php echo get_template_directory_uri(); ?>/media/images/pricing-1.png"
@@ -245,7 +268,7 @@
 
                         <!-- <span class="block text-gray-600 font-medium mb-6">per user, per month</span> -->
                     </div>
-                    <div class="price-inclusions px-9">
+                    <div class="price-inclusions relative z-3 px-9">
                         <ul>
                             <li class="flex mb-4  items-center">
                                 <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
@@ -306,7 +329,6 @@
 
                         </ul>
                     </div>
-
                     <div class="mt-6">
                         <a href="#"
                             class="relative group inline-block w-full py-4 px-6 text-center text-white hover:text-gray-50 bg-[#1771DC] font-semibold rounded-md overflow-hidden transition duration-200">
@@ -316,22 +338,63 @@
                             <span class="relative font-bold">INQUIRE NOW</span>
                         </a>
                     </div>
+
                 </div>
                 <!-- silver -->
                 <div
                     class="pricing-1 popular overflow-hidden z-1 relative max-w-sm lg:max-w-none mx-auto px-6 py-8 bg-gray-100 rounded-2xl ">
-                    <div class="relative popular-price flex items-center justify-center bg-[#1771DC]">
+                    <div class="pricing-accent z-2 absolute pa-web top-0 left-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="406" height="444" viewBox="0 0 406 444"
+                            fill="none" preserveAspectRatio="none" class="accent-desktop">
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="#2F2F2F"></path>
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="url(#paint0_linear_3138_2733)"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_3138_2733" x1="100" y1="-345.715" x2="-38.8886"
+                                    y2="524.771" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1B1B1B"></stop>
+                                    <stop offset="1" stop-color="#373737"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+
+                    <div class="pricing-accent z-2 pa-center-1 absolute top-0 left-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="406" height="335" viewBox="0 0 406 444"
+                            fill="none" preserveAspectRatio="none" class="accent-desktop">
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="#2F2F2F"></path>
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="url(#paint0_linear_3138_2733)"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_3138_2733" x1="100" y1="-345.715" x2="-38.8886"
+                                    y2="524.771" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1B1B1B"></stop>
+                                    <stop offset="1" stop-color="#373737"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+
+
+                    <div class="relative z-3 popular-price flex items-center justify-center bg-[#1771DC]">
                         MOST POPULAR
                     </div>
-                    <div class="text-center flex flex-col items-center justify-center">
+                    <div class="text-center relative z-3 flex flex-col items-center justify-center">
 
                         <div
-                            class="pricing-type silver relative flex items-center justify-center rounded-md w-[122px] h-[32px] mb-3">
+                            class="pricing-type silver relative flex items-center justify-center rounded-md w-[122px] h-[32px]">
                             <p class="font-semibold text-black">SILVER</p>
                         </div>
                         <div class="pricing-title flex items-center justify-center mt-5 text-center">
-                            <h1 class="price-silver block text-5xl font-bold text-black mb-3">$79.99</h1>
+                            <h1 class="price-silver block text-5xl font-bold text-white">$79.99</h1>
                         </div>
+                        <p class="text-[#8D8D8D]">$1,099.89 / year</p>
                         <div class="pricing-image relative block mx-[-24px]">
                             <img src="<?php echo get_template_directory_uri(); ?>/media/images/pricing-2.png"
                                 class="block w-full h-auto">
@@ -415,15 +478,42 @@
                 </div>
                 <!-- platinum -->
                 <div
-                    class="pricing-1 z-1 relative max-w-sm lg:max-w-none mx-auto px-6 py-8 mt-12 bg-gray-100 rounded-2xl">
-                    <div class="text-center flex flex-col items-center justify-center">
+                    class="pricing-1 z-1 relative overflow-hidden max-w-sm lg:max-w-none mx-auto px-6 py-8 mt-12 bg-gray-100 rounded-2xl">
+                    <div class="pricing-accent pa-web z-2 absolute top-0 left-0 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="403" height="403" viewBox="0 0 406 403"
+                            fill="none" preserveAspectRatio="none" class="accent-desktop rounded-tr-2xl rounded-tl-2xl">
+                            <path
+                                d="M-1034 -455H406V300C406 300 65.5 402.5 -314 402.5C-693.5 402.5 -1034 300 -1034 300V-455Z"
+                                fill="#2F2F2F"></path>
+                        </svg>
+                    </div>
+                    <div class="pricing-accent pa-center-1 z-2 absolute top-0 left-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="406" height="335" viewBox="0 0 406 444"
+                            fill="none" preserveAspectRatio="none" class="accent-desktop rounded-tl-2xl rounded-tr-2xl">
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="#2F2F2F"></path>
+                            <path
+                                d="M-517 -414H923V341C923 341 582.5 443.5 203 443.5C-176.5 443.5 -517 341 -517 341V-414Z"
+                                fill="url(#paint0_linear_3138_2733)"></path>
+                            <defs>
+                                <linearGradient id="paint0_linear_3138_2733" x1="100" y1="-345.715" x2="-38.8886"
+                                    y2="524.771" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#1B1B1B"></stop>
+                                    <stop offset="1" stop-color="#373737"></stop>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <div class="text-center relative z-3 flex flex-col items-center justify-center">
                         <div
-                            class="pricing-type flex items-center justify-center rounded-md w-[122px] h-[32px] platinum mb-3">
+                            class="pricing-type flex items-center justify-center rounded-md w-[122px] h-[32px] platinum">
                             <p class="font-semibold text-black">PLATINUM</p>
                         </div>
                         <div class="pricing-title flex items-center justify-center mt-5 text-center">
-                            <h1 class="block price-platinum text-5xl font-bold text-black mb-3">$129.99</h1>
+                            <h1 class="block price-platinum text-5xl font-bold text-white ">$129.99</h1>
                         </div>
+                        <p class="text-[#8D8D8D]">$1,649.89 / year</p>
                         <div class="pricing-image relative block mx-[-24px]">
                             <img src="<?php echo get_template_directory_uri(); ?>/media/images/pricing-3.png"
                                 class="block w-full h-auto">
@@ -431,7 +521,7 @@
 
                         <!-- <span class="block text-gray-600 font-medium mb-6">per user, per month</span> -->
                     </div>
-                    <div class="price-inclusions px-10">
+                    <div class="price-inclusions relative z-3 px-10">
                         <ul>
                             <li class="flex mb-4  items-center">
                                 <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
@@ -508,7 +598,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 

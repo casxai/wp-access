@@ -12,18 +12,6 @@ jQuery(document).ready(function($){
         arrows: true,
          prevArrow: $('.prev-arrow'),
          nextArrow: $('.next-arrow'),
-        responsive: [
-        
-          {
-            breakpoint: 768,
-            settings: {
-              arrows: false,
-              centerMode: true,
-              slidesToShow: 1,
-            
-            }
-          }
-        ]
       });
 
     // $('.slider').slick({

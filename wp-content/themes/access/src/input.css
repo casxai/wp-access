@@ -198,12 +198,6 @@ p {
     line-height: normal;
 }
 
-/* .slider .slick-list {
-    padding-right:35vw !important;
-    padding-left:35vw !important;
-} */
-
-
 .slider-contents {
     position: relative;
     display: flex;
@@ -215,7 +209,7 @@ p {
 .slider:before, .slider:after {
     content: '';
     position: absolute; 
-    width: 50%;
+    width: 30%;
     top: 0;
     z-index: 5;
     height: 100%;
@@ -232,8 +226,8 @@ p {
 }
 
 .slider .slick-list {
-    padding-right:30vw !important;
-    padding-left:30vw !important;
+    padding-right:28vw !important;
+    padding-left:28vw !important;
     overflow: visible;
 }
 
@@ -242,19 +236,21 @@ p {
     transition: all 0.4s ease-in-out;
     /* opacity: 0.5;  */
     position: relative;
-    margin-top: 2.5vw;
+    margin-top: 3.4vw;
     margin-bottom: 2vw; 
 }
 
+
 .slick-slide img {
     transition: all 0.4s ease-in-out;
-    width: 25.8vw;
+    width: 34vw;
+    
 }
 
 .slick-center {
     opacity: 1;
     transform: scale(1.1);
-    width: 50vw;
+    width: 37.5vw;
 }
 
 .slick-center img {
@@ -272,7 +268,7 @@ p {
 }
 
 .ipad {
-    width: 38vw; 
+    width: 50.2vw; 
     margin: auto;
     top: 0;
     right: 0;
@@ -282,10 +278,10 @@ p {
 }
 
 .buttons {
-    top: 10vw;
+    top: 13vw;
     left: 0;
     right: 0;
-    max-width: 45vw;
+    max-width: 51vw;
     z-index: 10;
 }
 
@@ -325,6 +321,11 @@ p {
     line-height: normal;
 }
 
+.pa-center-1 {
+    display: none;
+}
+
+
 .pricing-type p {
     font-family: 'Graphie';
     font-size: 14px;
@@ -339,7 +340,7 @@ p {
 
 .price-silver::before{
     content: '$99.99';
-    color: red;
+    color: #F24D3A;
     text-decoration: line-through;
     font-size: 20px;
     display: inline-block;
@@ -349,7 +350,7 @@ p {
 
 .price-silver::after{
     content: '/mo';
-    color: gray;
+    color: white;
     font-size: 18px;
     font-weight: 400;
     display: inline-block;
@@ -370,9 +371,10 @@ p {
     margin-bottom: 32px;
 }
 
+
 .price-platinum::before{
     content: '$149.99';
-    color: red;
+    color: #F24D3A;
     text-decoration: line-through;
     font-size: 20px;
     display: inline-block;
@@ -382,7 +384,7 @@ p {
 
 .price-platinum::after{
     content: '/mo';
-    color: gray;
+    color: white;
     font-size: 18px;
     font-weight: 400;
     display: inline-block;
@@ -940,6 +942,15 @@ p {
         margin-top: 0;
     }
 
+    .pa-web {
+        display: none;
+    }
+
+    .pa-center-1 {
+        display: block;
+        
+    }
+
     .popular {
         order: -1;
     }
@@ -1015,6 +1026,12 @@ p {
         height: 452px;
         
     }    
+
+    .bg {
+        background-size:100% 550px;
+        background-position: top;
+    }
+    
 }
 
 @media only screen and (max-width: 416px) {
